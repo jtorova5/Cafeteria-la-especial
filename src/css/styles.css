@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    background-image: url(../../public/img/fondo.webp);
+}
+
+header {
+    background-image: url(../../public/img/banner.webp);
+    height: 120px;
+    width: 100%;
+    border-top: 5px solid #876864;
+    border-bottom: 5px solid #876864;
+    transition: border-color 0.3s ease;
+    /* position: fixed;
+    top: 0; */
+}
+
+header:hover {
+    border-color: #a38985;
+}
+
+header nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+}
+
+header img {
+    height: 100px;
+    border-radius: 50px;
+    background-color: #876864;
+    border: 2px solid black;
+    transition: background-color 0.3s ease;
+}
+
+header img:hover {
+    background-color: #a38985;
+}
+
+header ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 20px;
+    cursor: pointer;
+}
+
+header li a {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #876864;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+header li:hover {
+    background-color: #a38985;
+}
+
+#home {
+    width: 100%;
+    padding: 20px;
+}
+
+#home h1 {
+    margin-bottom: 20px;
+}
+
+#home article {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #a38985;
+    padding: 10px;
+}
+
+#home p {
+    width: 20%;
+    height: 500px;
+    text-align: justify;
+    color: #e2d3d1;
+}
+
+#home img {
+    width: 15%;
+    height: 500px;
+    border: 3px solid #876864;
+}
+
+#nosotros {
+    width: 100%;
+    padding: 20px;
+}
+
+#nosotros h2 {
+    margin-bottom: 20px;
+}
+
+#nosotros article {
+    display: flex;
+}
+
+#nosotros video {
+    width: 40%;
+}
+
+footer {
+    height: 120px;
+    width: 100%;
+    background-image: url(../../public/img/banner.webp);
+    position: fixed;
+    bottom: 0;
+    border-top: 5px solid #876864;
+    border-bottom: 5px solid #876864;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+footer:hover {
+    border-color: #a38985;
+}
+
+footer p {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #876864;
+    color: white;
+    font-weight: bold;
+}
