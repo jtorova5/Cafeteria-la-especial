@@ -22,20 +22,24 @@
 </head>
 
 <body>
+    <!-- Encabezado -->
     <header>
+        <!-- Barra de navegación -->
         <nav>
             <div>
                 <a href="#home"><img src="./public/img/logo.webp" alt="Cafetería Especial"></a>
             </div>
             <ul>
                 <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="">Productos</a></li>
-                <li><a href="">Ubicación</a></li>
-                <li><a href="">Contacto</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
+        <!-- Sección home -->
         <section id="home">
             <h1>Cafetería Especial</h1>
             <article>
@@ -58,27 +62,79 @@
             </article>
         </section>
 
+        <!-- Sección nosotros -->
+        <h2 class="h2">Nosotros</h2>
         <section id="nosotros">
-            <h2>Nosotros</h2>
             <article>
                 <video src="./public/video/especial.mp4" alt="Cafetería especial" controls>
-                <p></p>
             </article>
         </section>
 
-        <section>
-            <h2>Productos</h2>
+        <!-- Sección productos -->
+        <h2 class="h2">Productos</h2>
+        <section id="productos">
+            <figure>
+                <img src="./public/img/chorizo.webp" 
+                alt="Chorizo de punta">
+                <figcaption>Chorizo</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./public/img/cerveza.webp" 
+                alt="Cerveza">
+                <figcaption>Cerveza</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./public/img/cafe.webp" 
+                alt="Café">
+                <figcaption>Café</figcaption>
+            </figure>
         </section>
-        <section>
-            <h2>Ubicación</h2>
+
+        <!-- Sección ubicación -->
+        <h2 class="h2">Ubicación</h2>
+        <section id="ubicacion">
+            <article>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.3649250373783!2d-75.33741112415376!3d6.081433528140807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46a27c1b12a919%3A0x44e87b675d005cc2!2sCafeter%C3%ADa%20La%20Especial!5e0!3m2!1ses-419!2sco!4v1712109609526!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
         </section>
-        <section>
-            <h2>Contacto</h2>
+
+        <!-- Sección contacto -->
+        <h2 class="h2">Contacto</h2>
+        <section id="contacto">
+            <article>
+                <span>¿Tienes alguna pregunta o comentario? ¡Contáctanos!</span>
+                <form action="#">
+                  <input type="text" placeholder="Ejemplo: Ana Torres, Juan Gomez..."/>
+                  <input type="email" placeholder="Ejemplo: example@dominio.com"/>
+                  <textarea name="" cols="30" rows="10"></textarea>
+                  <button>Contáctame</button>
+                </form>
+              </article>
         </section>
     </main>
+
+    <!-- Footer -->
     <footer>
         <div>
             <p>© 2024 Cafetería Especial</p>
+        </div>
+
+        <!-- Redes sociales -->
+        <div>
+                <a href="https://www.facebook.com/jhonatan.torovasquez" target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/jhonatantorovasquez/" target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="https://co.linkedin.com/in/jhonatantorovasquez" target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a href="https://twitter.com/jtorova5" target="_blank"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
         </div>
     </footer>
 
